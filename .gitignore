@@ -1,0 +1,22 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables and API keys
+.env
+
+
+# Ignore virtual environments
+venv/
+*.venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore Gradio cache and temporary files
+*.gradio/
+*.cache/
+
